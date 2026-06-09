@@ -267,7 +267,6 @@ button:hover { background-color: #f890aa; }
     flex-shrink: 0;
     aspect-ratio: 4/3;
     border-radius: 12px;
-    background-color: #d63367;
     object-fit: cover;
 }
  
@@ -278,7 +277,7 @@ button:hover { background-color: #f890aa; }
 }
  
 .menu_ {
-    background: #fff;
+    background: z#000000;
     border-radius: 14px;
     box-shadow: 0 3px 18px rgba(0,0,0,.07);
     display: flex;
@@ -303,7 +302,9 @@ button:hover { background-color: #f890aa; }
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #bce3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border: 2px solid #e0f0f8;
 }
@@ -421,7 +422,9 @@ button:hover { background-color: #f890aa; }
     width: clamp(100px, 12vw, 148px);
     height: clamp(100px, 12vw, 148px);
     border-radius: 50%;
-    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border: 3px solid #e0f0f8;
 }
@@ -500,8 +503,9 @@ button:hover { background-color: #f890aa; }
     width: 84px;
     height: 84px;
     border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #cce8f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: transform 200ms;
 }
  
@@ -577,7 +581,6 @@ button:hover { background-color: #f890aa; }
 }
  
 .card_final {
-    aspect-ratio: 3/4;
     border-radius: 12px;
     background-color: #DAEEF7;
     overflow: hidden;
